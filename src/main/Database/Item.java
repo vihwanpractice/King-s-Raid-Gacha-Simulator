@@ -2,19 +2,20 @@ import java.util.ArrayList;
 
 public class Item {
 
-    private String itemNum;
+    private int itemNum;
     private String name;
     private String type;
     private String heroName;
     private String heroClass;
+    private int starNum;
 
-
-    public Item(String itemNum, String name, String type, String heroName, String heroClass) {
+    public Item(int itemNum, String name, String type, String heroName, String heroClass, int starNum) {
         this.itemNum = itemNum;
         this.name = name;
         this.type = type;
         this.heroName = heroName;
         this.heroClass = heroClass;
+        this.starNum = starNum;
     }
 
 
