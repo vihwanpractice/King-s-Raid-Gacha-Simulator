@@ -2,14 +2,14 @@ import java.util.ArrayList;
 
 public class Item {
 
-    private int itemNum;
+    private String itemNum;
     private String name;
     private String type;
     private String heroName;
     private String heroClass;
     private int starNum;
 
-    public Item(int itemNum, String name, String type, String heroName, String heroClass, int starNum) {
+    public Item(String itemNum, String name, String type, String heroName, String heroClass, int starNum) {
         this.itemNum = itemNum;
         this.name = name;
         this.type = type;
